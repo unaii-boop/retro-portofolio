@@ -43,8 +43,8 @@ body::before {
 
 .browser-bar {
   background-color: #333;
-  border-color: #444;
   border: 2px solid black;
+  border-bottom: none;
   border-radius: 8px 8px 0 0;
   padding: 8px;
   display: flex;
@@ -66,15 +66,15 @@ body::before {
 }
 
 .yellow {
-  background-color: #ffd166;
+  background-color: /* #ffd166; */ #333
 }
 
 .green {
-  background-color: #4ecdc4;
+  background-color: /* #4ecdc4; */ #333
 }
 
 .red {
-  background-color: #ff6b6b;
+  background-color: #333;
 }
 
 .address-bar {
@@ -87,7 +87,7 @@ body::before {
 }
 
 .address-bar span {
-  color: #666;
+  color: #e0e0e0;
   font-size: 14px;
 }
 
@@ -99,7 +99,7 @@ body::before {
 .window-btn {
   width: 24px;
   height: 24px;
-  background-color: white;
+  background-color: #333;
   border: 1px solid black;
   border-radius: 4px;
   display: flex;
@@ -110,7 +110,7 @@ body::before {
 }
 
 .nav-menu {
-  background-color: #4ecdc4;
+  background-color: #333;
   padding: 8px;
   border: 2px solid black;
   border-top: none;
@@ -136,12 +136,12 @@ body::before {
   padding: 8px;
   border-radius: 6px;
   text-decoration: none;
-  color: black;
+  color: #e0e0e0
   transition: background-color 0.3s;
 }
 
 .nav-menu li.active a {
-  background-color: white;
+  background-color: #333;
   border: 2px solid black;
   box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 1);
 }
