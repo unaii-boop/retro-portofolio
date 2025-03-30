@@ -7,12 +7,11 @@
 }
 
 body {
-  background-color: #1a1a1a;
-    color: #e0e0e0;
+    background-color: #1a1a1a; /* Background hitam */
+    color: #e0e0e0; /* Teks abu-abu terang */
     font-family: 'Roboto Mono', monospace;
-    margin: 0;
-    padding: 0;
     transition: background-color 0.5s, color 0.5s;
+      
 }
 
 /* Grid Background */
@@ -31,21 +30,21 @@ body::before {
 
 /* Container */
 .container {
-  margin: 0 auto;
   padding: 20px;
 }
 
 /* Navbar Styles */
 .navbar {
+  background-color: #333;
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 100; 
 }
 
 .browser-bar {
-  background-color: #ff6b6b;
+  background-color: #333;
+  border-color: #444;
   border: 2px solid black;
-  border-bottom: none;
   border-radius: 8px 8px 0 0;
   padding: 8px;
   display: flex;
