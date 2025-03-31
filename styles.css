@@ -51,7 +51,7 @@ body::before {
 }
 
 .browser-bar {
-  background-color: #ff6b6b;
+  background-color: #f48fb1;
   border: 2px solid black;
   border-bottom: none;
   border-radius: 8px 8px 0 0;
@@ -75,28 +75,28 @@ body::before {
 }
 
 .yellow {
-  background-color: #ffd166;
+  background-color: #cd4e9c;
 }
 
 .green {
-  background-color: #4ecdc4;
+  background-color: #d87ab4;
 }
 
 .red {
-  background-color: #ff6b6b;
+  background-color: #aa1077;
 }
 
 .address-bar {
   flex: 1;
   margin: 0 16px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border: 2px solid black;
   border-radius: 4px;
   padding: 4px 8px;
 }
 
 .address-bar span {
-  color: #666;
+  color: #666666;
   font-size: 14px;
 }
 
@@ -119,12 +119,12 @@ body::before {
 }
 
 .nav-menu {
-  background-color: #4ecdc4;
+  background-color: #eecbd7;
   padding: 8px;
   border: 2px solid black;
   border-top: none;
   border-radius: 0 0 8px 8px;
-  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1)
 }
 
 .nav-menu ul {
@@ -145,7 +145,7 @@ body::before {
   padding: 8px;
   border-radius: 6px;
   text-decoration: none;
-  color: white;
+  color: rgb(134, 52, 90);
   transition: background-color 0.3s;
 }
 
@@ -155,8 +155,8 @@ body::before {
   box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 1);
 }
 
-.nav-menu li:/*not(.active) */ a:hover {
-  /* background-color */ color
+.nav-menu li:not(.active)  a:hover {
+  background-color: #fae5f2;
 }
 
 .nav-menu li a span {
@@ -214,11 +214,11 @@ body::before {
 }
 
 .teal {
-  background-color: #4ecdc4;
+  background-color: #f48fb1;;
 }
 
 .yellow {
-  background-color: #ffd166;
+  background-color: #eba4d0;
 }
 
 .pink-bg {
@@ -241,7 +241,7 @@ body::before {
 .card-content {
   height: calc(100% - 40px);
   padding: 16px;
-  background-color: white;
+  background-color: #f8bbd0;
   display: flex;
   flex-direction: column;
   align-items: center;
