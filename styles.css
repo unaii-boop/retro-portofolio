@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #fef6e4;
+  background-color:  #181818;
   position: relative;
   color: #272343;
 }
@@ -138,7 +138,7 @@ body::before {
   padding: 8px;
   border-radius: 6px;
   text-decoration: none;
-  color: black;
+  color: white;
   transition: background-color 0.3s;
 }
 
@@ -148,8 +148,8 @@ body::before {
   box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 1);
 }
 
-.nav-menu li:not(.active) a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+.nav-menu li:/*not(.active) */ a:hover {
+  /* background-color */ color
 }
 
 .nav-menu li a span {
