@@ -37,6 +37,10 @@ body::before {
   position: sticky;
   top: 0;
   z-index: 100;
+  background-color: #ff8ba7;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.5);
 }
 
 .browser-bar {
@@ -119,7 +123,7 @@ body::before {
 .nav-menu ul {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 20px;
   list-style: none;
 }
 
