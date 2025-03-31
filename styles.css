@@ -9,6 +9,7 @@
 body {
   background-color: #fef6e4;
   position: relative;
+  color: #272343;
 }
 
 /* Grid Background */
@@ -19,8 +20,8 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(#d1d1d1 1px, transparent 1px),
-    linear-gradient(90deg, #d1d1d1 1px, transparent 1px);
+  background-image: linear-gradient (#e3d5ca 1px, transparent 1px),
+    linear-gradient(90deg, #e3d5ca 1px, transparent 1px);
   background-size: 20px 20px;
   z-index: -1;
 }
