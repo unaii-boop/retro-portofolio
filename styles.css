@@ -7,9 +7,9 @@
 }
 
 body {
-  background-color:  #181818;
+  background-color:  #fce4ec;
   position: relative;
-  color: #272343;
+  color: #4a4a4a;
 }
 
 /* Grid Background */
@@ -30,6 +30,12 @@ body::before {
 .container {
   margin: 0 auto;
   padding: 20px;
+  max-width: 1100px;
+    background-color: #f8bbd0; /* Pink pastel */
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(240, 98, 146, 0.5);
+    border: 1px solid #ec407a;
+    transition: background-color 0.5s, box-shadow 0.5s;
 }
 
 /* Navbar Styles */
@@ -37,10 +43,11 @@ body::before {
   position: sticky;
   top: 0;
   z-index: 100;
-  background-color: #ff8ba7;
+  background-color: #f48fb1;
   border-radius: 12px;
-  padding: 12px;
-  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);/*4px 4px 0px 0px rgba(0, 0, 0, 0.5); */
+  margin-bottom: 20px;
 }
 
 .browser-bar {
