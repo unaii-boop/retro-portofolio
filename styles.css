@@ -350,6 +350,8 @@ body::before {
   border: 2px solid black;
   padding: 12px;
   background-color: #f9f7e8;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /*tambahan*/
+  border-radius: 10px;
 }
 
 .project-image {
