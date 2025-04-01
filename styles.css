@@ -11,6 +11,8 @@ body {
   position: relative;
   color: #333;
    background: linear-gradient(135deg, #fde2e4, #fab1c6, #f8bbd0);
+   h1, h2, h3 {
+  font-family: "Playfair Display", serif;
 }
 
 
@@ -195,7 +197,8 @@ body::before {
   background: #f8bbd0; /*tambahan*/
   backdrop-filter: blur(5px);
   border-radius: 10px;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /*0 4px 10px rgba(240, 98, 146, 0.2);*/
+  box-shadow: 2px solid #ff99c8; /*0 4px 10px rgba(240, 98, 146, 0.2);*/
+  border: 2px solid #ff99c8;
 }
 
 .card-inner {
