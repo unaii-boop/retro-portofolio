@@ -53,11 +53,12 @@ body::before {
 }
 
 .browser-bar {
-  background-color: #f48fb1;
+  background: #f3d1d6;
+  /*background-color: #f48fb1;*/
   border: 2px solid black;
   border-bottom: none;
-  border-radius: 8px 8px 0 0;
-  padding: 8px;
+  border-radius: 10px 10px 0 0;
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -77,15 +78,15 @@ body::before {
 }
 
 .yellow {
-  background-color: #cd4e9c;
+ background: #ffbd2e;
 }
 
 .green {
-  background-color: #d87ab4;
+  background-color: #27c93f;
 }
 
 .red {
-  background-color: #aa1077;
+  background: #ff5f56;
 }
 
 .address-bar {
@@ -98,8 +99,8 @@ body::before {
 }
 
 .address-bar span {
-  color: #666666;
-  font-size: 14px;
+  color: #555;
+  font-size: 12px;
 }
 
 .window-controls {
