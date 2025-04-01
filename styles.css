@@ -318,11 +318,13 @@ body::before {
 
 .section-title {
   display: inline-block;
-  font-size: 24px;
+  font-family: "Playfair Display", serif; /*tambahan*/
+  font-size: 26px;
   font-weight: bold;
   margin-bottom: 12px;
   padding: 0 8px;
-  border: 1px solid black;
+  border: none; /*1px solid black;*/
+  color: #b85c84; /*tambahan*/
 }
 
 .yellow-bg {
