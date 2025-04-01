@@ -10,7 +10,9 @@ body {
   background-color: #fde2e4;
   position: relative;
   color: #333;
+   background: linear-gradient(135deg, #fde2e4, #fab1c6, #f8bbd0);
 }
+
 
 /* Grid Background */
 body::before {
@@ -342,8 +344,9 @@ body::before {
 
 .projects-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 16px;
+
 }
 
 .project-card {
@@ -359,6 +362,7 @@ body::before {
   border: 1px solid black;
   margin-bottom: 8px;
   width: 100%;
+
 }
 
 .contact-info {
