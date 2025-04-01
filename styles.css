@@ -3,13 +3,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+ font-family: 'Courier New', Courier, monospace;
 }
 
 body {
-  background-color:  #fce4ec;;
+  background-color: #fde2e4;
   position: relative;
-  color: #4a4a4a;
+  color: #333;
 }
 
 /* Grid Background */
