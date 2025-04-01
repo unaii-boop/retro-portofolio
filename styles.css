@@ -193,7 +193,7 @@ body::before {
   background: #f8bbd0; /*tambahan*/
   backdrop-filter: blur(5px);
   border-radius: 10px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /*0 4px 10px rgba(240, 98, 146, 0.2);*/
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /*0 4px 10px rgba(240, 98, 146, 0.2);*/
 }
 
 .card-inner {
