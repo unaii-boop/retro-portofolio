@@ -10,11 +10,10 @@ body {
   background-color: #fde2e4;
   position: relative;
   color: #333;
-   background: linear-gradient(135deg, #fde2e4, #fab1c6, #f8bbd0);
+  background: linear-gradient(135deg, #fde2e4, #fab1c6, #f8bbd0);
    h1, h2, h3 {
-  font-family: "Playfair Display", serif;
-}
-
+  font-family: "Playfair Display", serif;}
+   }
 
 /* Grid Background */
 body::before {
