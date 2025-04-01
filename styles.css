@@ -163,9 +163,10 @@ body::before {
 }
 
 .nav-menu li:not(.active)  a:hover {
- transform: scale(1.05);
+ transform: scale(1.1);
   background-color: #ffe6ea;
   transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(255, 153, 200, 0.3);
 }
 
 .nav-menu li a span {
@@ -353,10 +354,10 @@ body::before {
 }
 
 .project-card {
-  border: 2px solid black;
+  border: 2px solid #ff99c8;
   padding: 12px;
   background-color: #f9f7e8;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /*tambahan*/
+  box-shadow: 0 0 15px rgba(255, 153, 200, 0.5);/*tambahan*/
   border-radius: 10px;
 }
 
