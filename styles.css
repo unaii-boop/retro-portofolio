@@ -160,8 +160,9 @@ body::before {
 }
 
 .nav-menu li:not(.active)  a:hover {
-  background-color: #fae5f2;
-  transform: scale(1.05); /*tambahan*/
+ transform: scale(1.05);
+  background-color: #ffe6ea;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav-menu li a span {
